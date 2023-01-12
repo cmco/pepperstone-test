@@ -2,20 +2,16 @@
 
 ## 📋 Challenge instructions
 
-You have been tasked with building a simple currency converter app as per the below Requested Features and Screenshots sections.
-
-The user can enter a query into the input, e.g. 1 EUR to USD, and the app will display the converted amount.
-
-You are also welcome to propose and add new features that you believe will enhance the functionality or user experience.
-
-It may be challenging to complete all the features within the allocated timeframe. We are more interested in the implementation quality of the features you _can_ complete rather than seeing them _all_ complete.
+- You have been tasked with building a simple currency converter app as per the below Requested features and Screenshots sections.
+- You are also welcome to add new features that you believe will enhance the functionality or user experience.
+- It may be challenging to complete all the features within the allocated timeframe. We are more interested in the implementation quality of the features you _can_ complete rather than seeing them _all_ complete.
 
 ### 🌟 Requested features
 
 1. Display the converted amount based on the exchange rate from the API.
 2. Display errors related to user input or from the exchange rate API.
 3. Support case insensitive user input.
-4. Allow the displayed converted amount to be swapped, e.g EUR-to-USD can be swapped to USD-to-EUR via the up-down arrows button.
+4. Swap the converted amount, e.g EUR-to-USD can be swapped to USD-to-EUR via the up-down arrows button.
 5. Display a history of previous converted amounts with no fixed limit on the number of items.
 6. Delete previous converted amounts.
 7. Add pagination for long lists of previous converted amounts.
