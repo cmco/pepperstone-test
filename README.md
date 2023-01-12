@@ -29,15 +29,13 @@ It may be challenging to complete all the features within the allocated timefram
 
 ## 📥 How to submit the challenge
 
-1. Fork or clone this repo into your publicly accessible git profile.
+1. Clone this repo into your publicly accessible git profile.
 2. Raise a Pull Request (PR) with your solution.
     - We encourage you to use git appropriately, e.g. commit regularly.
 
-_⚠️ Please ensure the PR is raised on your repository and not this repository._
-
 ## 🖼 Screenshots
 
-_⚠️ The screenshots use AUD as a base currency but this is only for illustration purposes. The recommended exchange rates API limits the base currency to EUR only._
+_⚠️ AUD as a base currency is only for illustration purposes. The recommended exchange rates API limits the base currency to EUR only._
 
 <img src="assets/screen-01.png" alt="screenshot" style="max-width: 700px"/>
 <img src="assets/screen-02.png" alt="screenshot" style="max-width: 700px"/>
