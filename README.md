@@ -4,7 +4,7 @@
 
 1. Clone the repo and run `npm install`
 2. Start the app via `npm start`
-3. Sign up for a free API key at https://exchangeratesapi.io and set it to the `API_KEY` variable
+3. Sign up for a free API key at https://apilayer.com/marketplace/exchangerates_data-api and attach it to the fetch requests
 
 _⚠️ Be careful not to expose your API key in publicly visible git repositories._
 
