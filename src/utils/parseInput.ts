@@ -1,16 +1,25 @@
-type ParseInput = (input: string) => {
-  fromAmount: number;
-  fromCurrency: string;
-  toCurrency: string
-}
+export const parseInput = (input: string) => {
+  const parsedInput = input.split(' ');
+  let amount = '';
+  let fromCurrency = '';
+  let toCurrency = '';
 
-export const parseInput: ParseInput = (input) => {
-  // expected input: 1 EUR to USD
-  // TODO: parse or tokenize the input string
+  parsedInput.map((string) => {
+    if (isNaN(Number(string)) === false) {
+      amount = string;
+    }
+    if (string.length === 3 && isNaN(Number(string))) {
+      if (fromCurrency === '') {
+        fromCurrency = string;
+      } else {
+        toCurrency = string;
+      }
+    }
+  });
 
   return {
-    fromAmount: 0,
-    fromCurrency: '',
-    toCurrency: '',
+    amount: parseFloat(amount),
+    fromCurrency,
+    toCurrency,
   };
 };
