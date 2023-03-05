@@ -18,7 +18,7 @@ export const parseInput = (input: string) => {
   });
 
   return {
-    amount: parseInt(amount),
+    amount: parseFloat(amount),
     fromCurrency,
     toCurrency,
   };
